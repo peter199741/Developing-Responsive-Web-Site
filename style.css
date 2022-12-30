@@ -1,0 +1,244 @@
+
+.wrapper{
+    box-sizing: border-box;
+    display: flex;
+    background-color: black;
+}
+.content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 150px;
+    line-height: 152px;
+    color: #FFFFFF;
+    margin: 80px;
+}
+.arrow{
+    align-items: center;
+    height: 0.1mm;
+    position: absolute;
+    z-index: 10px;
+    justify-content: center;
+    top: 630px;
+    left: 50%;
+}
+.laptop-img{
+        margin: 145px;
+        height: 356px;
+        padding: 26px;
+        /* top: 19px; */
+}
+#company{
+    animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#image-1{
+        margin: 50px;
+        width: 572px;
+        height: 688px;
+}
+h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121px;
+    color: #000000;
+}
+#info{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.Horizontal-scroll{
+    margin-top: 300px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+h1{
+    margin-left: 66px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+}
+#service{
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
+.heading {
+    margin-top: -80px;
+    margin-bottom: 36px;
+}
+b{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#hz{
+    margin-left: -20%;
+}
+col{
+    height: 20%;
+    width: 20%;
+}
+
+/* contact us form  */
+
+.form {
+    height: 1030px;
+    left: 0px;
+    margin-top: 500px;
+    background: #000000;
+  }
+  .contact-details {
+    padding: 101px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+  
+    color: #ffffff;
+  }
+  #name {
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    color: #ffffff;
+    background-color: #000000;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    border: 1px solid #ffffff;
+  }
+  #last-name {
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    color: #ffffff;
+    background-color: #000000;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    border: 1px solid #ffffff;
+    margin-top: 80px;
+  }
+  #email {
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 149px;
+    color: #ffffff;
+    background-color: #000000;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    border: 1px solid #ffffff;
+    margin-top: 160px;
+  }
+  #reason {
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    color: #ffffff;
+    background-color: #000000;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    border: 1px solid #ffffff;
+    margin-top: 240px;
+  }
+  #btn {
+    width: 260.75px;
+    height: 58px;
+    margin: 350px;
+    margin-left: 146px;
+    background-color: #ffffff;
+    color: black;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  
+    color: #000000;
+  }
+  #btn:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+  
+    color: #000000;
+  }
+  .a{
+    background-color: white;
+    transition-duration: 0.3s;
+  }
+  .b{
+    background-color: white;
+    transition-duration: 0.3s;
+  }
+  .c{
+    background-color: white;
+    transition-duration: 0.3s;
+  }
+  .d{
+    background-color: white;
+    transition-duration: 0.3s;
+  }
+  .a:hover{
+    background-color: black;
+    color: white;
+  }
+  .b:hover{
+    background-color: black;
+    color: white;
+  }
+  .c:hover{
+    background-color: black;
+    color: white;
+  }
+  .d:hover{
+    background-color: black;
+    color: white;
+  }
+
